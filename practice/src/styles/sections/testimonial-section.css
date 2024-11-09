@@ -45,6 +45,7 @@
   width: 1173.5px;
   max-width: 100%;
   gap: 25px;
+  margin-top: 20px;
 }
 
 .testimonial-section-arrow-button.button {
@@ -80,5 +81,6 @@
 
   .testimonial-section-arrow-group {
     justify-content: flex-end;
+    margin: 0;
   }
 }
