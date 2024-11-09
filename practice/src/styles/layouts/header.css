@@ -18,9 +18,8 @@
 
 .menu-lists {
   position: absolute;
-  transform: translateX(-150px);
-  transform: translateY(-400px);
-  padding: 20px;
+  transform: translate(-180px, -400px);
+  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -29,7 +28,7 @@
 .menu-lists-active {
   border-radius: 10px;
   transform: translateY(0);
-  transform: translateX(-150px);
+  transform: translateX(-180px);
   background-color: var(--color-mirage);
   text-align: center;
 }
@@ -78,7 +77,6 @@
 
   .menu-lists-active {
     background: none;
-    transition: 0s ease;
     width: 100%;
   }
 
