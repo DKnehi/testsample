@@ -134,6 +134,10 @@
 }
 /* tablet-version */
 @media (min-width: 768px) {
+  .footer {
+    margin-top: 80px;
+  }
+
   .footer-content {
     flex-direction: row;
   }
