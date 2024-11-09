@@ -24,7 +24,7 @@ https://github.com/DKnehi/testsample.git
 ```
  cd testsample/
 ```
-- Step 03: Change to branch feature/javascript-practice:
+- Step 03: Change to branch feature/practice:
 ```
 git checkout feature/practice
 ```
