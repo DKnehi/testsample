@@ -1,0 +1,32 @@
+.testimonial-section-card {
+  border: 1px solid rgba(172, 172, 172, 0.29);
+  max-width: 566.75px;
+  min-height: 293.87px;
+  padding: 66.24px 67.78px 38.7px 73.59px;
+  border-radius: var(--radius-md);
+}
+
+.testimonial-section-card-heading-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonial-section-card-name {
+  font-size: var(--size-md);
+  font-weight: var(--weight-bold);
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--color-cod-gray);
+}
+
+.testimonial-section-card-location.text {
+  letter-spacing: 0.2px;
+  color: var(--color-gray);
+}
+
+.testimonial-section-card-text.text {
+  letter-spacing: 0.3px;
+  color: var(--color-pale-sky);
+  margin-top: 22px;
+}

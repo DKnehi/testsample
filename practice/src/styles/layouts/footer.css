@@ -1,0 +1,155 @@
+/* mobile-version */
+.footer {
+  background-color: var(--color-midnight-moss);
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  padding: 130px 0 48.87px 0;
+  border-bottom: 1px solid var(--color-white);
+}
+
+.footer-content-chill {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.footer-logo-group {
+  width: 288.79px;
+}
+
+.footer-text.text {
+  line-height: 24px;
+  color: var(--color-white);
+  margin-top: 25px;
+}
+
+.footer-contact-box {
+  margin-top: 32.68px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-contact-group {
+  display: flex;
+  align-items: center;
+  gap: 13.78px;
+}
+
+.footer-contact-group-text {
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  font-size: var(--size-2sx);
+  line-height: 31.99px;
+}
+
+.footer-content-box {
+  margin-top: 16px;
+}
+
+.footer-community-group {
+  width: 157px;
+}
+
+.footer-about-group {
+  width: 157px;
+}
+
+.footer-recent-group {
+  width: 223.94px;
+}
+.footer-content-text {
+  font-weight: var(--weight-normal);
+  color: var(--color-white);
+  line-height: 42px;
+}
+
+.footer-content-group {
+  color: var(--color-white);
+  font-weight: var(--weight-normal);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-recent-content-box {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-recent-image {
+  width: 60px;
+  height: 53px;
+  background-color: var(--color-silver);
+}
+
+.footer-recent-date {
+  font-size: var(--size-4sx);
+  line-height: 15.62px;
+}
+
+.footer-recent-content {
+  font-size: var(--size-1sx);
+  line-height: 19.53px;
+  margin-top: 3.86px;
+}
+
+.footer-social-box {
+  max-width: 818px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+
+.footer-social-content {
+  font-size: var(--size-3sx);
+  font-weight: var(--weight-normal);
+  line-height: 28px;
+  color: var(--color-alto);
+  margin-top: 5px;
+}
+
+.footer-icon {
+  position: absolute;
+}
+
+.footer-icon-left {
+  left: 0;
+  transform: translateY(78%);
+}
+
+.footer-icon-right {
+  right: 0;
+}
+/* tablet-version */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+  }
+
+  .footer-social-box {
+    flex-direction: row;
+  }
+
+  .footer-social-content {
+    margin: 0;
+  }
+}
+
+/* desktop-version */
+@media (min-width: 1025px) {
+  .footer-content-chill {
+    flex-direction: row;
+  }
+}

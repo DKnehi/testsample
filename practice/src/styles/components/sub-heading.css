@@ -1,0 +1,6 @@
+.sub-heading {
+  font-size: var(--size-3xl);
+  font-weight: var(--weight-bold);
+  line-height: 60px;
+  color: var(--color-firefly);
+}

@@ -1,0 +1,26 @@
+.offer-section-card {
+  max-width: 565.57px;
+  height: 181.52px;
+  background-color: var(--color-white);
+  box-shadow: 0px 0px 80px rgba(203, 203, 203, 0.25);
+  border-radius: var(--radius-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px 0 25px;
+  gap: 10px;
+}
+
+.offer-section-card-heading {
+  font-size: var(--size-xl);
+  font-weight: var(--weight-bold);
+  line-height: 27px;
+  letter-spacing: -0.06px;
+  color: var(--color-ebony-clay);
+  white-space: nowrap;
+}
+
+.offer-section-card-text.text {
+  color: var(--color-scorpion);
+  margin-top: 20px;
+}

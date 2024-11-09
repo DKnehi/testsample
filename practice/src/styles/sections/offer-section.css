@@ -1,0 +1,38 @@
+/* mobile-version */
+.offer-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-section-content {
+  max-width: 695.37px;
+  text-align: center;
+}
+
+.offer-section-heading.heading {
+  font-size: var(--size-sm);
+  font-weight: var(--weight-medium);
+}
+
+.offer-section-text {
+  margin-top: 22px;
+}
+
+.offer-section-card-group {
+  display: grid;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+/* tablet-version */
+@media (min-width: 768px) {
+  .offer-section {
+    padding-top: 70px;
+  }
+
+  .offer-section-card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,104 @@
+/* mobile-version */
+.product-section {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-section-card-group {
+  display: grid;
+  gap: 16px;
+}
+
+.product-section-content.product-card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.product-section-heading-group.heading-group {
+  justify-content: flex-start;
+}
+
+.product-section-heading.heading {
+  font-size: var(--size-sm);
+  font-weight: var(--weight-medium);
+}
+
+.product-section-sub-heading.sub-heading {
+  color: var(--color-mine-shaft);
+  text-align: center;
+}
+
+.product-section-text {
+  width: 317.81px;
+  margin: 28px 0 42px 0;
+}
+
+.product-section-button.button {
+  font-size: var(--size-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-white);
+  line-height: 27px;
+  padding: 16px 48px;
+  border-radius: var(--radius-xl);
+  background-color: var(--color-olive-drab);
+}
+
+.product-section-card.product-card-box {
+  background-color: var(--color-olive-drab-rgb);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.product-section-card-heading {
+  font-size: var(--size-lg);
+  font-weight: var(--weight-bold);
+  line-height: 32px;
+  color: var(--color-white);
+}
+
+.product-section-card-sub-heading {
+  font-size: var(--size-xs);
+  font-weight: var(--weight-bold);
+  line-height: 22px;
+  color: var(--color-white);
+  margin: 4px 0 54px 0;
+}
+
+.product-section-card-button {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  color: var(--color-white);
+  background: none;
+  border: none;
+  gap: 17px;
+  cursor: pointer;
+}
+/* tablet-version */
+@media (min-width: 768px) {
+  .product-section {
+    padding-top: 116.55px;
+  }
+
+  .product-section-card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-section-content.product-card-box {
+    align-items: flex-start;
+  }
+}
+
+/* desktop-version */
+@media (min-width: 1025px) {
+  .product-section-card-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

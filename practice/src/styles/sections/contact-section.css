@@ -1,0 +1,120 @@
+/* mobile-version */
+.contact-section {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section-title {
+  max-width: 720px;
+  text-align: center;
+}
+
+.contact-section-sub-heading.sub-heading {
+  color: var(--color-ebony-clay);
+}
+
+.contact-section-containt {
+  margin-top: 55.85px;
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+}
+
+.contact-section-content {
+  max-width: 573.08px;
+}
+
+.contact-section-content-check-group {
+  margin-top: 39.26px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.contact-section-banner-group {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.contact-section-big-banner {
+  background-color: var(--color-silver);
+  position: absolute;
+  width: 232.32px;
+  height: 137.77px;
+  margin-left: 110px;
+  margin-top: 55px;
+  z-index: 1;
+}
+
+.contact-section-medium-banner {
+  background-color: var(--color-silver);
+  position: absolute;
+  width: 177.9px;
+  height: 103.44px;
+  margin-top: 20px;
+}
+
+.contact-section-small-banner {
+  width: 33.41px;
+  height: 29.93px;
+  background-color: var(--color-olive-drab);
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 190px;
+}
+
+.contact-section-banner {
+  width: 13.95px;
+  height: 12.34px;
+  background-color: var(--color-casablanca);
+  position: relative;
+  margin-left: 215px;
+}
+
+.banner-radius {
+  border-radius: var(--radius-xl);
+}
+
+/* tablet-version */
+@media (min-width: 768px) {
+  .contact-section {
+    padding-top: 105px;
+  }
+
+  .contact-section-big-banner {
+    width: 432.32px;
+    height: 237.77px;
+    margin-left: 140px;
+    margin-top: 122px;
+  }
+
+  .contact-section-medium-banner {
+    width: 277.9px;
+    height: 203.44px;
+    margin-top: 60px;
+  }
+
+  .contact-section-small-banner {
+    margin-left: 310px;
+    margin-top: 15px;
+    width: 73.41px;
+    height: 69.93px;
+    margin-top: 15px;
+  }
+
+  .contact-section-banner {
+    margin-left: 360px;
+    width: 33.95px;
+    height: 32.34px;
+  }
+}
+
+/* desktop-version */
+@media (min-width: 1025px) {
+  .contact-section-containt {
+    flex-direction: row;
+  }
+}

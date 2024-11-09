@@ -1,0 +1,65 @@
+:root {
+  /* Start color */
+  --color-white: #ffff;
+  --color-black-rgb: rgba(0, 0, 0, 0.51);
+  --color-black: #000;
+  --color-casablanca: #f5ab48;
+  --color-silver: #c4c4c4;
+  --color-ebony-clay: #1f242e;
+  --color-mirage: #14212b;
+  --color-mirage-rgb: rgba(20, 33, 43, 0.8);
+  --color-olive-drab: #54a029;
+  --color-olive-drab-rgb: rgba(84, 160, 41, 0.57);
+  --color-olive-drab-rgb-second: rgba(84, 160, 41, 0.81);
+  --color-firefly: #08151f;
+  --color-iron: #d2d5d9;
+  --color-scorpion: #575757;
+  --color-mine-shaft: #333333;
+  --color-dove-gray: #666666;
+  --color-silver-chalice-rgb: rgba(172, 172, 172, 0.29);
+  --color-cod-gray: #1e1b1b;
+  --color-gray: #939191;
+  --color-pale-sky: #6c757d;
+  --color-pampas: #f6f4f2;
+  --color-dusty-gray: #999999;
+  --color-alto: #d4d4d4;
+  --color-midnight-moss: #0c1908;
+  /* End color */
+
+  /* Start border-radius */
+  --radius-xs: 3px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-md-second: 6.35px;
+  --radius-lg: 7px;
+  --radius-xl: 8px;
+  --radius-2xl: 10px;
+  /* End border-radius */
+
+  /* Start font-sizes */
+  --size-4sx: 12px;
+  --size-3sx: 13px;
+  --size-2sx: 14px;
+  --size-1sx: 15px;
+  --size-sx: 16px;
+  --size-sm: 18px;
+  --size-md: 20px;
+  --size-lg: 24px;
+  --size-xl: 32px;
+  --size-2xl: 48px;
+  --size-3xl: 56px;
+  --size-4xl: 65px;
+  /* End font-sizes */
+
+  /* Start font-weight */
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  /* End font-weight */
+
+  /* Start font */
+  --font-primary: "DMSans";
+  --font-secondary: "MuseoModerno";
+  /* End font */
+}
